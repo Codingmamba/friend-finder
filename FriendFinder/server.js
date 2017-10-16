@@ -1,12 +1,6 @@
 
-
+var surv = require("./survey.html");
 var bodyParser = require('body-parser');
-
-var express = require('express')
-var app = express()
- 
-app.get('/', function (req, res) {
-  res.send('Hello World')
-})
- 
-app.listen(3000);   
+var express = require('express');
+var app = express();
+const PORT = 3030; 
