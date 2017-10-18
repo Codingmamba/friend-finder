@@ -9,10 +9,10 @@ module.exports = function(app) {
 
 console.log("Hurray");
 
-//   app.post("/api/friends", function(req, res) {
-//     friend.push(req.body);
-//       res.json(true);
+  app.post("/api/friends", function(req, res) {
+    friend.push(req.body);
+      res.json(true);
     
-//   });
+  });
 
 }
