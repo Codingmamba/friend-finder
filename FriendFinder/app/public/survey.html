@@ -12,7 +12,7 @@
        }
        button {
             border-radius: 5px;
-            padding: 5px;
+            padding: 15px;
         }
     
     </style>
@@ -151,8 +151,23 @@
                 <br>
         
                 <!-- Submit Button -->
-                <button type="submit" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
+                <button type="submit" onclick="search();" class="btn btn-primary btn-lg btn-block" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i>
          Submit</button>
+
+    <script>
+
+        function entry() {
+           var no = document.querySelectorAll("option[value=1]");
+           if (no ===  null) {
+                alert("Please enter in all fields");
+           }
+        }
+
+         function search() {
+             alert("Please wait as we processing your best match!");
+         }
+         
+    </script>
     
 </body>
 </html>

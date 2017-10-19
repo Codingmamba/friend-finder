@@ -13,5 +13,5 @@ require("./app/routing/apiRoutes")(app);
 require("./app/routing/htmlRoutes")(app);
 
 app.listen(PORT, function() {
-    console.log("Go to PORT: " + PORT);
+    console.log("Now go to PORT: " + PORT);
   });
