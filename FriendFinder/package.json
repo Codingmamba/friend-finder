@@ -3,6 +3,10 @@
   "version": "1.0.0",
   "description": "dating app",
   "main": "server.js",
+  "engines": {
+    "node": "6.11.0",
+    "npm": "3.10.10"
+  },
   "dependencies": {
     "express": "^4.16.2",
     "init": "^0.1.2",
